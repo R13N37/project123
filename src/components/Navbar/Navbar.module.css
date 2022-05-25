@@ -1,0 +1,18 @@
+.containerBlack {
+  background-color: black !important;
+  max-width: 1400px !important;
+}
+
+.container{
+  background-color: transparent !important;
+  max-width: 1400px !important;
+}
+
+.navbarcontainer{
+  width: 100px;
+}
+
+.imgLogo{
+  width: 234px;
+  height: 80px;
+}

@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+
+.container a {
+  width: 622px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.imag {
+  width: 622px;
+  height: 350px;
+}

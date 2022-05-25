@@ -1,0 +1,169 @@
+.text {
+  font-size: 60px;
+}
+
+.container {
+  width: 100vw;
+  height: 50vh;
+  background: url("../../assets/images/Home.png");
+}
+
+.contentImages{
+  width: 1300px;
+  height: 467px;
+  background-color: #9f9e9e;
+}
+
+.contentImagesWrapper{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 200px;
+  font-size: 18px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 250px;
+  padding-left: 400px;
+  width: 1100px;
+}
+
+.offer h2 {
+  font-size: 42px;
+}
+
+.sicurrezzaContainer{
+  padding-top: 60px;
+}
+
+.Sicurezza {
+  padding-left: 400px;
+  background-color: rgb(226, 226, 226);
+  margin-bottom: -1rem;
+  padding-top: 20px;
+}
+
+.containerSicurezza {
+  background-color: rgb(226, 226, 226);
+  padding-left: 400px;
+  display: flex;
+}
+
+.containerSicurezza img {
+  width: 64px;
+}
+
+.containerSicurezza h6 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.containerSicurezza div {
+  width: 343px;
+  height: 299px;
+  padding-top: 60px;
+}
+
+.containerDom {
+  padding-top: 70px;
+  max-width: 1100px;
+  display: flex;
+  gap: 80px;
+}
+.containerDomWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.leftInfoWrapper{
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+}
+
+.rightInfoWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-top: 70px;
+}
+.rightInfoWrapper--section{
+  display: flex;
+  gap: 20px;
+}
+.leftInfoWrapper--tag{
+  color: #9f9e9e;
+  font-weight: 600;
+  font-size: 14px;
+}
+.leftInfoWrapper--title{
+  font-size: 38px;
+  max-width: 300px;
+}
+
+.sicurezzaWrapper{
+  display: flex;
+justify-content: center;
+gap: 20px;
+padding-top: 120px;
+}
+.sicurezzaCard{
+  width: 364px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.titleExtendedCard{
+  font-size: 42px;
+}
+
+.productsTag{
+  color:#9f9e9e;
+}
+
+.infoExtendedCardContent{
+  width: 344px;
+}
+
+.buttonText{
+  cursor: pointer;
+  font-size: 13px;
+  padding: 18px 40px;
+  background-color: black;
+  color: white;
+  width: max-content;
+  height: 56px;
+}
+
+.buttonText:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 13px;
+  padding: 18px 40px;
+  background-color: white;
+  color: black;
+  width: max-content;
+  height: 56px;
+}
+
+.carousel{
+  display: flex;
+  justify-content: center;
+}
+
+.carouselContent{
+  width: 1580px;
+  height: 115px;
+  background-color: #9f9e9e;
+}

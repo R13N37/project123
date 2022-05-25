@@ -1,0 +1,27 @@
+.group1{
+    display: flex;
+    width: 100%;
+}
+
+.group2{
+    display: flex;
+}
+
+.container a{
+    cursor: pointer;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.group1Img{
+    width: 100%;
+}
+
+.group2Img{
+    width: 100%;
+}

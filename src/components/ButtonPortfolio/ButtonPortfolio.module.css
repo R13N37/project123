@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.buttonText{
+    cursor: pointer;
+    font-size: 13px;
+    padding: 16px 30px;
+    background-color: black;
+    color: white;
+    width: 256px;
+    height: 56px;
+  }
+  
+  .buttonText:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 13px;
+    padding: 16px 30px;
+    background-color: white;
+    color: black;
+    width: 256px;
+    height: 56px;
+  }
