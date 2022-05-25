@@ -1,0 +1,44 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-image: url("../../../assets/images/Home.png");
+  background-repeat: no-repeat;
+}
+
+.upperContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contentTitle {
+  width: 724px;
+  height: 56px;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.contentInfo {
+  width: 550px;
+  height: 64px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.btnPortfolio {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  background-color: #1a1a1a;
+  padding: 14px 26px;
+}
+
+.btnText {
+  color: white;
+  font-size: 12px;
+}

@@ -8,6 +8,7 @@ const history = {
       about_us: "About us",
       domotica: "Home automation",
       hotel: "hotel",
+      superbonus: "Superbonus"
     },
 
     homeHeader: {
@@ -127,6 +128,39 @@ const history = {
       title5_des2:
         "A universal supervision system for building automation using iPad, smartphone, tablet",
     },
+
+    superbonus: {
+      home_title: 'Superbonus 110%',
+      title1: '110% Superbonus and Home Automation',
+      title1_desc1: 'The Superbonus is a subsidy provided for by the Relaunch Decree which allows a 110% deduction of expenses incurred for interventions carried out from 1 July 2020 to 30 June 2022, aimed at improving the energy efficiency of buildings.',
+      title1_desc2: 'Among the works that benefit from the 110% Superbonus there are also the installation of home automation devices and systems.',
+      title2: 'CONTACT US WITHOUT COMMITMENT',
+      sub_title2: 'To have offers on the supply and programming of knx devices included in the Superbonus 110',
+      contact_title1: 'CALL NOW!',
+      contact_desc1: 'Tel +39.342 8029448',
+      contact_title2: 'OR WRITE US',
+      contact_desc2: 'Fill out the form!',
+      form_title: 'Send a message',
+      form_desc: 'We will reply as soon as possible.',
+      form_name: 'Name',
+      form_mail: 'Email',
+      form_tel: 'Phone',
+      form_message: 'message',
+      check_form: 'I declare that I have read the information pursuant to Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR) and the current legislation on the matter.',
+      check_button: 'Send',
+      title3: 'What is the Superbonus 110',
+      title3_desc1: 'The Superbonus encourages energy redevelopment interventions to make homes smarter through the installation and implementation of building automation devices and systems.',
+      title3_desc2: 'These must allow the automated management of heating systems or production of domestic hot water or summer air conditioning, including their remote control through multimedia channels.',
+      title4: 'How does it work',
+      title4_desc1: 'The Superbonus raises the deduction rate for expenses incurred by 30 June 2022 to 110% for specific interventions in the field of energy efficiency',
+      title4_desc2: 'It provides for a deduction rate of 110% for expenses incurred by 30 June 2022 to be divided into 5 years, within the maximum limit of predefined deduction values, which vary according to the size of the building and the type of intervention.',
+      link: 'Useful links',
+      title5: 'For more information :',
+      title5_desc1: 'Article 11 of Annex A of the Requirements Decree ("Requirements to be indicated in the sworn statement for interventions that access tax deductions")',
+      title5_desc2: 'Information and clarifications: Enea website',
+      title5_desc3: 'Superbonus 110% guide: Agenzia delle Entrate website',
+      button: 'superbonus',
+    }
   },
 };
 

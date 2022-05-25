@@ -1,0 +1,364 @@
+.container {
+  width: 100vw;
+  height: 40vh;
+  background-image: url("../../assets/images/Home.png");
+  background-repeat: no-repeat;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.leftContainer {
+  width: 900px;
+  padding-top: 100px;
+}
+
+.imgSuperbonus {
+  width: 870px;
+}
+.contentContainerAbout {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 20px;
+}
+.titleSuperBonusAbout {
+  font-size: 30px;
+}
+
+.descriptionSuperBonusAbout {
+  color: #555;
+}
+
+.imageContainer {
+  padding-top: 80px;
+}
+
+.imageSlider {
+  width: 840px;
+  height: 350px;
+  background-color: #555;
+}
+
+.contactFormContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  gap: 40px;
+  align-items: center;
+}
+
+.titleContactForm {
+  text-align: center;
+  font-size: 30px;
+}
+
+.containerContactForm {
+  padding-top: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.leftContentContactForm {
+  width: 430px;
+  height: 650px;
+}
+
+.rightContentContactForm {
+  width: 430px;
+  height: 650px;
+}
+
+.contactInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 50px;
+  padding-top: 20px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactTitle {
+  font-weight: bold;
+}
+
+.contactImg {
+  width: 58px;
+  height: 58px;
+  background-color: #0abd19;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  flex: 1;
+  width: 35px;
+  height: 40px;
+  color: white;
+}
+
+.img:hover {
+  flex: 1;
+  width: 35px;
+  height: 40px;
+  color: #818a91;
+  transition: 0.2s;
+}
+
+.rightcontactInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.titleContactFormInput {
+  font-size: 30px;
+}
+
+.inputContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.inputArea {
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 8px;
+  outline: none;
+}
+
+.messageArea {
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 8px;
+  outline: none;
+  height: 130px;
+}
+
+.inputTextArea {
+  color: #7a7a7a;
+}
+
+.message {
+  color: #7a7a7a;
+}
+
+.textCheckBox {
+  display: inline;
+  padding-left: 3px;
+}
+
+.button {
+  height: 40px;
+  background-color: #61ce70;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: white;
+  font-size: 15px;
+}
+
+.secondTitle {
+  font-size: 30px;
+}
+
+.secondTitleDescription {
+  color: #555;
+}
+
+.secondTitleContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.containerLink {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 850px;
+  padding-top: 60px;
+}
+
+.containerLinkLeft {
+  width: 500px;
+  height: 210px;
+}
+
+.containerLinkTitle {
+  font-size: 30px;
+  color: #1a1a1a;
+}
+
+.containerLinkRight {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.containerLinkTitleRight {
+  padding-top: 10px;
+}
+
+.contentLinkRight,
+.containerLinkTitleRight {
+  color: #7a7a7a;
+}
+
+.containerLinkRight a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+.superBonusSocialContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 870px;
+  height: 80px;
+}
+
+.superBonusSocialButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(207, 206, 206);
+  font-size: 14px;
+  padding-bottom: 5px;
+  width: 96px;
+  height: 32px;
+  color: #1a1a1a;
+}
+
+.superBonusSocialButton:hover {
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(207, 206, 206);
+  font-size: 14px;
+  padding-bottom: 5px;
+  width: 96px;
+  height: 32px;
+  color: white;
+  background-color: black;
+}
+
+.superBonusSocialLinkscContainer {
+  height: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.superBonusSocialLinks {
+  display: flex;
+  flex: 1;
+  width: 600px;
+  height: 40px;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.superBonusSocialTwitter:hover {
+  color: white;
+  transition: 0.4s;
+  background-color:aqua;
+  width: 40px;
+  height: 40px;
+}
+
+.superBonusSocialFacebook:hover  {
+  color: white;
+  transition: 0.4s;
+  background-color: #521caa;
+  width: 40px;
+  height: 40px;
+}
+
+.superBonusSocialPinterest:hover  {
+  color: white;
+  transition: 0.4s;
+  background-color: red;
+  width: 40px;
+  height: 40px;
+}
+
+.superBonusSocialLinkedIn:hover  {
+  color: white;
+  transition: 0.4s;
+  background-color: #007aff;
+  width: 40px;
+  height: 40px;
+}
+.superBonusSocialTwitter {
+  border: 1px solid #818a91;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: 0.4s;
+  width: 40px;
+  height: 40px;
+}
+
+.superBonusSocialFacebook  {
+  border: 1px solid #818a91;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: 0.4s;
+  width: 40px;
+  height: 40px;
+}
+
+.superBonusSocialPinterest  {
+  border: 1px solid #818a91;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: 0.4s;
+  width: 40px;
+  height: 40px;
+}
+
+.superBonusSocialLinkedIn  {
+  border: 1px solid #818a91;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: 0.4s;
+  width: 40px;
+  height: 40px;
+}
+
+.imageSocial{
+  width: 30px;
+  height: 30px;
+}

@@ -1,11 +1,5 @@
-.containerBlack {
-  background-color: black !important;
-  max-width: 1400px !important;
-}
-
-.container{
-  background-color: transparent !important;
-  max-width: 1400px !important;
+a{
+  cursor: pointer;  
 }
 
 .navbarcontainer{

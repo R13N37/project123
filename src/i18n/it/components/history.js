@@ -127,6 +127,48 @@ const history = {
       title5_des2:
         "Un sistema di supervisione universale per la building automation tramite iPad, smartphone, tablet",
     },
+
+    superbonus: {
+      home_title: "Superbonus 110%",
+      title1: "110% Superbonus e Domotica",
+      title1_desc1:
+        "Il Superbonus è un contributo previsto dal Decreto Rilancio che consente la detrazione del 110% delle spese sostenute per gli interventi effettuati dal 1 luglio 2020 al 30 giugno 2022, volti al miglioramento del'lefficienza energetica degli edifici.",
+      title1_desc2:
+        "Tra le opere che beneficiano del Superbonus 110% ci sono anche l'installazione di dispositivi e sistemi domotici.",
+      title2: "CONTATTACI SENZA IMPEGNO",
+      sub_title2:
+        "Per avere offerte sulla fornitura e programmazione dei dispositivi knx inclusi nel Superbonus 110",
+      contact_title1: "CHIAMARE ORA!",
+      contact_desc1: "Tel +39.342 8029448",
+      contact_title2: "O SCRIVICI",
+      contact_desc2: "Compilare il modulo!",
+      form_title: "Mandare un messaggio",
+      form_desc: "Ti risponderemo il prima possibile.",
+      form_name: "Nome",
+      form_mail: "Mail",
+      form_tel: "Telefono",
+      form_message: "messagio",
+      check_form:
+        "Dichiaro di aver preso visione dell'informativa ai sensi del Regolamento (UE) 2016/679 del Parlamento Europeo e del Consiglio del 27 aprile 2016 (GDPR) e della normativa vigente in materia.",
+      check_button: "Spedire",
+      title3: "Cos'è il Superbonus 110",
+      title3_desc1:
+        "Il Superbonus incoraggia gli interventi di riqualificazione energetica per rendere le case più smart attraverso l'installazione e l'implementazione di dispositivi e sistemi di building automation.",
+      title3_desc2:
+        "Questi devono consentire la gestione automatizzata degli impianti di riscaldamento o di produzione di acqua calda sanitaria o di condizionamento estivo, compreso il loro controllo a distanza attraverso canali multimediali.",
+      title4: "Come funziona",
+      title4_desc1:
+        "The Superbonus raises the deduction rate for expenses incurred by 30 June 2022 to 110% for specific interventions in the field of energy efficiency",
+      title4_desc2:
+        "Prevede un'aliquota di detrazione del 110% per le spese sostenute entro il 30 giugno 2022 da suddividere in 5 anni, entro il limite massimo di valori di detrazione predefiniti, che variano a seconda delle dimensioni dell'immobile e della tipologia di intervento.",
+      link: "Link utili",
+      title5: "Per maggiori informazioni :",
+      title5_desc1:
+        "Articolo 11 dell'Allegato A del Decreto Requisiti (Requisiti da indicare nella dichiarazione giurata per gli interventi che accedono alle detrazioni fiscali)",
+      title5_desc1: "Informazioni e chiarimenti: sito Enea",
+      title5_desc1: "Superbonus 110% guide: Agenzia delle Entrate website",
+      button: 'superbonus',
+    },
   },
 };
 
