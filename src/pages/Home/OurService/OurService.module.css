@@ -6,23 +6,22 @@
   height: 114px;
 }
 
-
 .containerTag {
-    display: flex;
-    justify-content: center;
-    color: #9f9e9e;
-    width: 1170px;
+  display: flex;
+  justify-content: center;
+  color: #9f9e9e;
+  width: 1170px;
 }
 
 .containerTitle {
-    display: flex;
-    justify-content: center;
-    color: #1a1a1a;
-    font-size: 42px;
-    width: 1170px;
+  display: flex;
+  justify-content: center;
+  color: #1a1a1a;
+  font-size: 42px;
+  width: 1170px;
 }
 
-.containerWrapper{
-    display: flex;
-    justify-content: center;
+.containerWrapper {
+  display: flex;
+  justify-content: center;
 }

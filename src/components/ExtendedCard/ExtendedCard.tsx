@@ -1,6 +1,6 @@
 import React, { PropsWithChildren } from "react";
 
-import ExtendedCardView from "./ExtendedCard.view.tsx";
+import ExtendedCardView from "./ExtendedCard.view";
 
 type Props = {
   img: string;

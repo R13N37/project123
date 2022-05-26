@@ -11,7 +11,9 @@ const OurServiceView = () => {
         <div className={classes["containerTag"]}>
           {t("components.history.table.aboutServices.services_about")}
         </div>
-        <div className={classes["containerTitle"]}>{t("components.history.table.aboutServices.services_title")}</div>
+        <div className={classes["containerTitle"]}>
+          {t("components.history.table.aboutServices.services_title")}
+        </div>
       </div>
     </div>
   );

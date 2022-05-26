@@ -1,0 +1,32 @@
+.accordion {
+  color: #6ec1e4;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: left;
+  border: none;
+  outline: none;
+  height: max-content;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.container {
+  border: 1px solid gray;
+}
+
+.acordionContent {
+  border-top: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.acordionTitle {
+  font-size: 26px;
+}
+
+.containerAcordion {
+  padding-top: 20px;
+}

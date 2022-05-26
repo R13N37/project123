@@ -1,6 +1,6 @@
 import React, { PropsWithChildren } from "react";
 
-import NavbarView from "./Navbar.view.tsx";
+import NavbarView from "./Navbar.view";
 
 import { Routes, Route, Link, useNavigate } from "react-router-dom";
 
@@ -11,7 +11,8 @@ type Props = {
   handleContactClick: () => void;
   handleAboutUsClick: () => void;
   handleSuperbonusClick: () => void;
- 
+  handleFaqClick: () => void;
+  handleNewsClick: () => void;
 };
 
 const Navbar: React.FC<Props> = (props: PropsWithChildren<Props>) => {
@@ -25,6 +26,8 @@ const Navbar: React.FC<Props> = (props: PropsWithChildren<Props>) => {
       handleContactClick={() => navigate("/contact")}
       handleAboutUsClick={() => navigate("/aboutUs")}
       handleSuperbonusClick={() => navigate("/superbonus")}
+      handleFaqClick={() => navigate("/faq")}
+      handleNewsClick={() => navigate("/news")}
     ></NavbarView>
   );
 };

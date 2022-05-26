@@ -1,8 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import HeaderTitle from "../../components/HeaderTitle/HeaderTitle.tsx";
-import Footer from "../../components/Footer/Footer"
+import HeaderTitle from "../../components/HeaderTitle/HeaderTitle";
+import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 
 import classes from "./AboutUs.module.css";
 
@@ -10,6 +11,7 @@ const AboutUsView = () => {
   const { t } = useTranslation();
   return (
     <div className={classes["container"]}>
+      <Navbar></Navbar>
       <HeaderTitle title="Chi Samo" link1="HOME" link2="CHI SAMO"></HeaderTitle>
       <div className={classes["tagsInfo"]}>
         <div className={classes["offerInfo"]}>
@@ -19,7 +21,6 @@ const AboutUsView = () => {
           {t("components.history.table.aboutUs.about_us")}
         </div>
         {t("components.history.table.aboutUs.about_us_descript")}
-
       </div>
       <div className={classes["infoContentTitleWrapper"]}>
         <div className={classes["infoContentTitle"]}></div>

@@ -1,43 +1,43 @@
-.container{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
-.text{
-    color:black;
+.text {
+  color: black;
 }
 
-.imgAbout{
-    width: 679px;
-    height: 642px;
+.imgAbout {
+  width: 679px;
+  height: 642px;
 }
 
-.imageAbout
-{    width: 679px;
-    height: 642px;
+.imageAbout {
+  width: 679px;
+  height: 642px;
 }
 
-.aboutInfoWrapper{
-    width:600px;
-    height:742px;
-    display: flex;
-    flex-direction: column;
+.aboutInfoWrapper {
+  width: 600px;
+  height: 742px;
+  display: flex;
+  flex-direction: column;
 }
 
-.aboutInfo{
-    color: #9f9e9e;
+.aboutInfo {
+  color: #9f9e9e;
 }
 
-.aboutTitle{
-    font-size: 42px;
+.aboutTitle {
+  font-size: 42px;
 }
 
-.aboutInfoContainer{
-        width: 530px;
-        height: 672px;
-        display: flex;
-        flex-direction:column ;
-        justify-content: center;
-        gap: 40px;
+.aboutInfoContainer {
+  width: 530px;
+  height: 672px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
 }

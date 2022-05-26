@@ -1,9 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import Card from "../../components/Card/Card.tsx";
-import HeaderTitle from "../../components/HeaderTitle/HeaderTitle.tsx";
+import Card from "../../components/Card/Card";
+import HeaderTitle from "../../components/HeaderTitle/HeaderTitle";
 import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 
 import review from "../../assets/images/review.png";
 import smarthome from "../../assets/images/smarthome.png";
@@ -14,6 +15,7 @@ const HotelView = () => {
   const { t } = useTranslation();
   return (
     <div className={classes["container"]}>
+      <Navbar></Navbar>
       <HeaderTitle title="HOTEL" link1="HOME" link2="HOTEL"></HeaderTitle>
       <div className={classes["tagsInfo"]}>
         <div className={classes["offerInfo"]}>

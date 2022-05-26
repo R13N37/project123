@@ -1,12 +1,12 @@
 import React, { PropsWithChildren } from "react";
 
-import HeaderTitleView from "./HeaderTitle.view.tsx";
+import HeaderTitleView from "./HeaderTitle.view";
 
 type Props = {
   title: string;
   link1: string;
   link2: string;
-}
+};
 
 const HeaderTitle: React.FC<Props> = (props: PropsWithChildren<Props>) => {
   return (

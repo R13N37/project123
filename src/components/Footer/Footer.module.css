@@ -1,7 +1,7 @@
-.footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container {
@@ -11,9 +11,9 @@
   justify-content: center;
 }
 
-.logoImg{
-    width: 176px;
-    height: 60px;
+.logoImg {
+  width: 176px;
+  height: 60px;
 }
 
 .contacts {
@@ -55,7 +55,6 @@
   color: #b1b0b0;
   width: 437px;
   height: 90px;
-  
 }
 
 .containerIconsSocial {
@@ -71,37 +70,37 @@
   height: 24px;
 }
 
-.linksContainer{
-    width: 288px;
-    height: 264px;
-    display: flex;
-    flex-direction: column;
-    gap: 11px;
+.linksContainer {
+  width: 288px;
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
 }
 
-.linksTitle{
-    color: white;
-    font-size: 20px;
-    padding: 32px 0;
+.linksTitle {
+  color: white;
+  font-size: 20px;
+  padding: 32px 0;
 }
 
-.links{
-    display: flex;
-    color: #b1b0b0;
+.links {
+  display: flex;
+  color: #b1b0b0;
 }
 
-.privacyContainer{
-    display: flex;
-    justify-content: center;
-    background-color: #0f0f0f;
-    padding: 30px;
+.privacyContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #0f0f0f;
+  padding: 30px;
 }
 
-.privacy{
-    display: flex;
-    justify-content: center;
-    color: #b1b0b0;
-    width: 1170px;
-    height: 30px;
-    padding: 15px;
+.privacy {
+  display: flex;
+  justify-content: center;
+  color: #b1b0b0;
+  width: 1170px;
+  height: 30px;
+  padding: 15px;
 }

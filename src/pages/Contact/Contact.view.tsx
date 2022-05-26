@@ -1,6 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
+import Navbar from "../../components/Navbar/Navbar";
+
 import classes from "./Contact.module.css";
 import img1 from "../../assets/images/maps.png";
 import img2 from "../../assets/images/email.png";
@@ -10,6 +12,7 @@ const ContactView = () => {
   const { t } = useTranslation();
   return (
     <div className={classes["container"]}>
+      <Navbar></Navbar>
       <div className={classes["header"]}>
         <h1 className={classes["text"]}>
           {t("components.history.table.contacts.contacts")}

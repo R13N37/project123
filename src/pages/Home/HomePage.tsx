@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navbar from "../../components/Navbar/Navbar.tsx";
+import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import Home from "./Home/Home";
 import About from "./About/About";
@@ -10,6 +10,7 @@ import HotelImg from "./HotelImg/HotelImg";
 import Portfolio from "./Portfolio/Portfolio";
 import PortfolioImg from "./PortfolioImg/PortfolioImg";
 import ButtonPortfolio from "./ButtonPortfolio/ButtonPortfolio";
+import Slider from "../../components/Slider/Slider";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <OurService></OurService>
       <HotelImg></HotelImg>
       <Portfolio></Portfolio>
+      <Slider></Slider>
       <PortfolioImg></PortfolioImg>
       <ButtonPortfolio></ButtonPortfolio>
       <Footer></Footer>

@@ -8,6 +8,7 @@ const history = {
       about_us: "Chi siamo",
       domotica: "domotica",
       hotel: "Hotel",
+      faq: "Faq",
     },
 
     homeHeader: {
@@ -167,7 +168,86 @@ const history = {
         "Articolo 11 dell'Allegato A del Decreto Requisiti (Requisiti da indicare nella dichiarazione giurata per gli interventi che accedono alle detrazioni fiscali)",
       title5_desc1: "Informazioni e chiarimenti: sito Enea",
       title5_desc1: "Superbonus 110% guide: Agenzia delle Entrate website",
-      button: 'superbonus',
+      button: "superbonus",
+    },
+
+    acordion: {
+      question1:
+        "What are the cost ceilings for home automation interventions?",
+      question1answ1:
+        "L’Allegato I riporta nella tabella 1 i massimali specifici di costo per gli interventi sottoposti a dichiarazione del fornitore o dell’installatore (ai sensi dell’Allegato A).",
+      question1answ2:
+        "Per l’installazione di tecnologie di building automation la spesa specifica massima ammissibile per la detrazione è fissata in 50,00 €/m².",
+      question1answ3:
+        "I costi esposti nella tabella si considerano al netto di IVA, prestazioni professionali e opere complementari relative alla installazione e alla messa in opera delle tecnologie.",
+      question2: "Quali ambiti della domotica possono rientrare nel 110%?",
+      question2answ1:
+        "Possono rientrare nel 110% come interventi trainati tutti gli ambiti della domotica che riguardano l’impianto termico dell’edificio e contribuiscono al suo controllo e monitoraggio, con particolare riferimento alle fasi di distribuzione e di emissione in ambiente di caldo e freddo.",
+      question2answ2:
+        "Inoltre sono presi in considerazione anche la regolazione e il controllo di sistemi di schermatura solare e chiusure tecniche oscuranti di tipo mobile.",
+      question2answ3:
+        "Non rientrano nel bonus 110% interventi sul controllo e la gestione dell’illuminazione, delle motorizzazioni, videosorveglianza o altri dispositivi centralizzati.",
+      question3: "Ammissibilità",
+      question3answ1: "Sono ammessi alla misura:",
+      question3answ2li1:
+        "gli interventi energetici ritenuti prioritari (trainanti)",
+      question3answ2li2:
+        "e gli interventi secondari (trainati), quest’ultimi solo se realizzati congiuntamente con i primi.",
+      question3answ3:
+        "Gli interventi energetici trainanti sono quelli di isolamento termico di superfici opache oltre il 25% della superficie disperdente, con materiali sostenibili, e di sostituzione degli impianti di climatizzazione.",
+      question3answ4:
+        "Quelli trainati sono invece relativi all’installazione di sistemi building automation, infissi, schermature solari, scaldacqua a pompa di calore, eliminazione delle barriere architettoniche, impianti fotovoltaici con sistemi di accumulo, infrastrutture per la ricarica di veicoli elettrici.",
+      question4: "Criteri",
+      question4answ1:
+        "I dispositivi automatizzati devono rispettare 3 criteri per essere considerati interventi nel campo della cosiddetta “building automation”:",
+      question4answ2li1:
+        "Il primo criterio prevede che i dispositivi mostrino attraverso canali multimediali i consumi energetici, con la fornitura periodica dei dati.",
+      question4answ3li2:
+        "Il secondo criterio è che i dispositivi mostrino le condizioni di funzionamento correnti e la temperatura di regolazione degli impianti.",
+      question4answ4li3:
+        "Il terzo criterio è che i dispositivi consentano l’accensione, lo spegnimento e la programmazione settimanale degli impianti da remoto.",
+    },
+
+    news: {
+      title1: "Blueface",
+      desc1:
+        "Il termostato Airzone Blueface con tecnologia touch si caratterizza per il suo design moderno ed elegante.",
+      title2: "ThinKnx – Supervisione",
+      desc2:
+        "Vimar offre soluzioni, semplici e versatili, per il controllo del riscaldamento e raffrescamento degli ambienti.",
+      title3: "Superbonus 110% – Novità",
+      desc3:
+        "Superbonus 110% – nuova legge di Bilancio 2022 – nuovo orizzonte temporale",
+      title4: "Vimar Smart Clima",
+      desc4:
+        "Vimar offre soluzioni, semplici e versatili, per il controllo del riscaldamento e raffrescamento degli ambienti.",
+      title5: "Superbonus 110%",
+      desc5:
+        "Fornitura e programmazione dei dispositivi knx rientranti nel Superbonus 110",
+      title6: "Bticino Domotica knx",
+      desc6:
+        "Finiture di pregio e un aspetto elegante e minimalista. Un oggetto di design, ispirato dall’ architettura contemporanea, in grado di arredare con stile la casa.",
+      title7: "Design",
+      desc7:
+        "Nascono nuovi modi di abitare il proprio spazio che diviene ‘intelligente’ ma soprattutto confortevole.",
+      title8: "Ekinex FF Flank",
+      desc8:
+        "Finiture di pregio e un aspetto elegante e minimalista. Un oggetto di design, ispirato dall’ architettura contemporanea, in grado di arredare con stile la casa.",
+      title9: "Ekinex Serie FF",
+      desc9:
+        "Finiture di pregio e un aspetto elegante e minimalista. Un oggetto di design, ispirato dall’ architettura contemporanea, in grado di arredare con stile la casa.",
+      title10: "Chopin Basalte",
+      desc10:
+        "Finiture di pregio e un aspetto elegante e minimalista. Un oggetto di design, ispirato dall’ architettura contemporanea, in grado di arredare con stile la casa.",
+      article: "ULTIMI ARTICOLI",
+      tag: "TAG",
+      basalte: "basalte",
+      bticino: "bticino",
+      design: "design",
+      ekinex: "ekinex",
+      superbonus: "superbonus",
+      thinknx: "thinknx",
+      vimar: "vimar",
     },
   },
 };

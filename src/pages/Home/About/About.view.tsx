@@ -14,13 +14,17 @@ const AboutView = () => {
 
       <div className={classes["aboutInfoWrapper"]}>
         <div className={classes["aboutInfoContainer"]}>
-          <div className={classes["aboutInfo"]}>{t("components.history.table.aboutContent.about_company")}</div>
-          <div className={classes["aboutTitle"]}>{t("components.history.table.aboutContent.about_title")}</div>
-          <div className={classes["aboutContent"]}>
-          {t("components.history.table.aboutContent.about_descript1")}
+          <div className={classes["aboutInfo"]}>
+            {t("components.history.table.aboutContent.about_company")}
+          </div>
+          <div className={classes["aboutTitle"]}>
+            {t("components.history.table.aboutContent.about_title")}
           </div>
           <div className={classes["aboutContent"]}>
-          {t("components.history.table.aboutContent.about_descript2")}
+            {t("components.history.table.aboutContent.about_descript1")}
+          </div>
+          <div className={classes["aboutContent"]}>
+            {t("components.history.table.aboutContent.about_descript2")}
           </div>
         </div>
       </div>

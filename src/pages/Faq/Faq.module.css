@@ -1,0 +1,60 @@
+.pageContent {
+  width: 100vw;
+  height: 50vh;
+  color: white;
+  background-image: url("../../assets/images/Home.png");
+  background-repeat: no-repeat;
+}
+
+.contentFaq {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  gap: 30px;
+  padding: 0 470px;
+}
+
+.containerContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid #989696;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #545353;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.answer {
+  display: flex;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.containerFaq {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contentAnswer {
+  border-radius: 5px;
+  background-color: #989696;
+}

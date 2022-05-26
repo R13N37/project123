@@ -1,13 +1,14 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-
-import classes from "./Footer.module.css";
-import logo from "../../assets/images/logo.png";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { BiMap } from "react-icons/bi";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { FiPhone } from "react-icons/fi";
+
+import logo from "../../assets/images/logo.png";
+
+import classes from "./Footer.module.css";
 
 const FooterView = () => {
   const { t } = useTranslation();

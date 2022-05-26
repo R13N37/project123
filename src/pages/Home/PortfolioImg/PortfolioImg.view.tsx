@@ -10,27 +10,27 @@ import img6 from "../../../assets/images/RoccaAlbornotz.png";
 
 const PortfolioImgView = () => {
   return (
-    <div className={classes['container']}>
+    <div className={classes["container"]}>
       <div className={classes["group1"]}>
         <a href="#">
-          <img className={classes['group1Img']} src={img1} />
+          <img className={classes["group1Img"]} src={img1} />
         </a>
         <a href="#">
-          <img  className={classes['group1Img']} src={img2} />
+          <img className={classes["group1Img"]} src={img2} />
         </a>
       </div>
-      <div className={classes['group2']}>
+      <div className={classes["group2"]}>
         <a href="#">
-          <img  className={classes['group2Img']} src={img3} />
+          <img className={classes["group2Img"]} src={img3} />
         </a>
         <a href="#">
-          <img  className={classes['group2Img']} src={img4} />
+          <img className={classes["group2Img"]} src={img4} />
         </a>
         <a href="#">
-          <img className={classes['group2Img']}  src={img5} />
+          <img className={classes["group2Img"]} src={img5} />
         </a>
         <a href="#">
-          <img className={classes['group2Img']}  src={img6} />
+          <img className={classes["group2Img"]} src={img6} />
         </a>
       </div>
     </div>

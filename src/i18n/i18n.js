@@ -2,23 +2,27 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 import en from './en';
-import ruTranslation from './ru';
+import ru from './ru';
+import it from './it';
 
 i18n
-  .use(initReactI18next) // passes i18n down to react-i18next
+  .use(initReactI18next) 
   .init({
     resources: {
       en: {
         translation: en,
       },
       ru: {
-        translation: ruTranslation,
+        translation: ru,
+      },
+      it: {
+        translation: it,
       },
     },
-    lng: 'en',
-    keySeparator: '.', // we do not use keys in form messages.welcome
+    lng: 'ru',
+    keySeparator: '.', 
     interpolation: {
-      escapeValue: false, // react already safes from xss
+      escapeValue: false, 
     },
   });
 

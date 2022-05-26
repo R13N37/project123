@@ -1,12 +1,12 @@
 import React, { PropsWithChildren } from "react";
 
-import CardView from "./Card.view.tsx";
+import CardView from "./Card.view";
 
 type Props = {
   img: string;
   content: string;
   title: string;
-}
+};
 
 const Card: React.FC<Props> = (props: PropsWithChildren<Props>) => {
   return (

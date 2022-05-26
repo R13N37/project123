@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import React, { PropsWithChildren } from "react";
-import { Routes, Route, Link, useNavigate } from "react-router-dom";
 
 import logo from "../../assets/images/logo.png";
 import classes from "./Navbar.module.css";
@@ -12,6 +11,8 @@ type Props = {
   handleContactClick: () => void;
   handleAboutUsClick: () => void;
   handleSuperbonusClick: () => void;
+  handleFaqClick: () => void;
+  handleNewsClick: () => void;
 };
 
 const NavbarView: React.FC<Props> = (props: PropsWithChildren<Props>) => {
@@ -22,8 +23,8 @@ const NavbarView: React.FC<Props> = (props: PropsWithChildren<Props>) => {
       id="navbar"
     >
       <div className="container-fluid custom-container">
-        <a className=" text-dark " href="#">
-          <img className={classes["imgLogo"]} src={logo} alt="" height="50px" />
+        <a className=" text-dark " onClick={props.handleHomeClick}>
+          <img className={classes["logo"]} src={logo} alt="" height="50px" />
         </a>
         <div>
           <button
@@ -77,6 +78,11 @@ const NavbarView: React.FC<Props> = (props: PropsWithChildren<Props>) => {
               </ul>
             </li>
             <li className="nav-item dropdown dropdown-hover">
+              <a className="nav-link " onClick={props.handleNewsClick}>
+                {t("components.history.table.headers.news")}
+              </a>
+            </li>
+            <li className="nav-item dropdown dropdown-hover">
               <a className="nav-link " onClick={props.handleContactClick}>
                 {t("components.history.table.headers.contacts")}
               </a>
@@ -89,6 +95,11 @@ const NavbarView: React.FC<Props> = (props: PropsWithChildren<Props>) => {
             <li className="nav-item dropdown dropdown-hover">
               <a className="nav-link " onClick={props.handleSuperbonusClick}>
                 {t("components.history.table.headers.superbonus")}
+              </a>
+            </li>
+            <li className="nav-item dropdown dropdown-hover">
+              <a className="nav-link " onClick={props.handleFaqClick}>
+                {t("components.history.table.headers.faq")}
               </a>
             </li>
           </ul>

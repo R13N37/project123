@@ -1,0 +1,137 @@
+.text {
+  color: black;
+}
+
+.textContainer {
+  color: black;
+  width: 168px;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.imageContainer {
+  width: 272px;
+  height: 170px;
+}
+
+.pageLeftContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 65px;
+}
+
+.allContentContainer {
+  display: flex;
+}
+
+.groupItem {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.image {
+  width: 272px !important;
+  height: 170px !important;
+}
+
+.contentText {
+  color: #666;
+  font-size: 14px;
+  width: 272px;
+  height: 73px;
+}
+
+.textTitle {
+  font-size: 18px;
+  font-weight: 600;
+  width: max-content;
+  padding: 12px 0;
+}
+
+.paragraph {
+  display: grid;
+  align-self: center;
+  color: black;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.article a {
+  text-decoration: none;
+  color: black;
+}
+
+.article img {
+  height: 75px;
+  width: 75px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  width: 276px;
+  height: 126px;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.tags a {
+  max-width: max-content;
+  border: 1px solid #c9c9c9;
+  font-size: 14px;
+  padding: 10px;
+  color: black;
+}
+
+.tagsGroup a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.75s;
+}
+
+.textAlign {
+  width: 150px;
+  padding-left: 15px;
+}
+
+.gridContainer {
+  padding-top: 200px;
+  display: flex;
+}
+
+.rightTitle {
+  font-size: 20px;
+}
+
+.containerImgTextLeft {
+  display: flex;
+  font-size: 18px;
+}
+
+.tagText {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tagsGroup {
+  display: flex;
+  gap: 10px;
+}

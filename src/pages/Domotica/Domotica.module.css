@@ -8,13 +8,13 @@
   background: url("../../assets/images/Home.png");
 }
 
-.contentImages{
+.contentImages {
   width: 1300px;
   height: 467px;
   background-color: #9f9e9e;
 }
 
-.contentImagesWrapper{
+.contentImagesWrapper {
   display: flex;
   justify-content: center;
   padding-top: 60px;
@@ -42,7 +42,7 @@
   font-size: 42px;
 }
 
-.sicurrezzaContainer{
+.sicurrezzaContainer {
   padding-top: 60px;
 }
 
@@ -85,58 +85,58 @@
   justify-content: center;
 }
 
-.leftInfoWrapper{
+.leftInfoWrapper {
   display: flex;
   gap: 6px;
   flex-direction: column;
 }
 
-.rightInfoWrapper{
+.rightInfoWrapper {
   display: flex;
   flex-direction: column;
   gap: 70px;
   padding-top: 70px;
 }
-.rightInfoWrapper--section{
+.rightInfoWrapper--section {
   display: flex;
   gap: 20px;
 }
-.leftInfoWrapper--tag{
+.leftInfoWrapper--tag {
   color: #9f9e9e;
   font-weight: 600;
   font-size: 14px;
 }
-.leftInfoWrapper--title{
+.leftInfoWrapper--title {
   font-size: 38px;
   max-width: 300px;
 }
 
-.sicurezzaWrapper{
+.sicurezzaWrapper {
   display: flex;
-justify-content: center;
-gap: 20px;
-padding-top: 120px;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 120px;
 }
-.sicurezzaCard{
+.sicurezzaCard {
   width: 364px;
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
-.titleExtendedCard{
+.titleExtendedCard {
   font-size: 42px;
 }
 
-.productsTag{
-  color:#9f9e9e;
+.productsTag {
+  color: #9f9e9e;
 }
 
-.infoExtendedCardContent{
+.infoExtendedCardContent {
   width: 344px;
 }
 
-.buttonText{
+.buttonText {
   cursor: pointer;
   font-size: 13px;
   padding: 18px 40px;
@@ -146,7 +146,7 @@ padding-top: 120px;
   height: 56px;
 }
 
-.buttonText:hover{
+.buttonText:hover {
   cursor: pointer;
   transition: 0.5s;
   font-size: 13px;
@@ -157,12 +157,12 @@ padding-top: 120px;
   height: 56px;
 }
 
-.carousel{
+.carousel {
   display: flex;
   justify-content: center;
 }
 
-.carouselContent{
+.carouselContent {
   width: 1580px;
   height: 115px;
   background-color: #9f9e9e;

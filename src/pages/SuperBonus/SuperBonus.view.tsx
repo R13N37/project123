@@ -1,9 +1,4 @@
 import React from "react";
-
-import HeaderTitle from "../../components/HeaderTitle/HeaderTitle.tsx";
-
-import classes from "./SuperBonus.module.css";
-import SuperBonusImg from "../../assets/images/Superbonus110.png";
 import { BsTelephoneFill } from "react-icons/bs";
 import {
   RiFileList3Fill,
@@ -14,11 +9,27 @@ import {
 import { TiSocialPinterest } from "react-icons/ti";
 import { useTranslation } from "react-i18next";
 
+import Navbar from "../../components/Navbar/Navbar";
+import HeaderTitle from "../../components/HeaderTitle/HeaderTitle";
+import Slider from "../../components/Slider/Slider";
+import VAcordion from "../../components/VAcordion/VAcordion";
+
+import img1 from "../../assets/images/Termostati.png";
+import img2 from "../../assets/images/Supervisione.png";
+import img3 from "../../assets/images/Superbonus.png";
+import img4 from "../../assets/images/vimar.png";
+import img5 from "../../assets/images/Superbonus110.png";
+import classes from "./SuperBonus.module.css";
+import SuperBonusImg from "../../assets/images/Superbonus110.png";
+import acordions from "../../components/VAcordion/VAcordionMap";
+import { IFilterAcordion } from "../../components/VAcordion/VAcordion.model";
+
 const SuperBonusView = () => {
   const { t } = useTranslation();
 
   return (
     <div className={classes["container"]}>
+      <Navbar></Navbar>
       <HeaderTitle
         title="Superbonus 110%"
         link1="HOME"
@@ -40,11 +51,7 @@ const SuperBonusView = () => {
               {t("components.history.table.superbonus.title1_desc2")}{" "}
             </div>
           </div>
-          <div className={classes["imageContentContainter"]}>
-            <div className={classes["imageContainer"]}>
-              <div className={classes["imageSlider"]}></div>
-            </div>
-          </div>
+          <Slider></Slider>
           <div className={classes["contactFormContainer"]}>
             <div className={classes["titleContactForm"]}>
               {t("components.history.table.superbonus.title2")}
@@ -112,7 +119,10 @@ const SuperBonusView = () => {
                 <div className={classes["message"]}>
                   {t("components.history.table.superbonus.form_message")}
                 </div>
-                <textarea className={classes["messageArea"]} placeholder="" />
+                <textarea
+                  className={classes["messa   geArea"]}
+                  placeholder=""
+                />
                 <label className={classes["inputTextArea"]}>
                   <input type="checkbox" />
                   <div className={classes["textCheckBox"]}>
@@ -145,6 +155,15 @@ const SuperBonusView = () => {
               {t("components.history.table.superbonus.title4_desc2")}
             </div>
           </div>
+          <div className={classes["containerAcordion"]}>
+            {acordions.map((acordion: IFilterAcordion) => {
+              return (
+                <VAcordion header={acordion.header}>
+                  {acordion.content}
+                </VAcordion>
+              );
+            })}
+          </div>
           <div className={classes["containerLink"]}>
             <div className={classes["containerLinkLeft"]}>
               <div className={classes["containerLinkTitle"]}>
@@ -170,10 +189,11 @@ const SuperBonusView = () => {
               </div>
             </div>
           </div>
+
           <div className={classes["superBonusSocialContainer"]}>
             <div className={classes["superBonusSocialButton"]}>
               <a className={classes["superBonusSocialButtonText"]}>
-                {t("components.history.table.superbonus.superbonus")}
+                {t("components.history.table.superbonus.button")}
               </a>
             </div>
             <div className={classes["superBonusSocialLinkscContainer"]}>
@@ -196,6 +216,53 @@ const SuperBonusView = () => {
                 <a>
                   <RiLinkedinFill className={classes["imageSocial"]} />
                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={classes["pageRightContent"]}>
+          <div className={classes["rightTitle"]}>ULTIMI ARTICOLI</div>
+          <div>.................</div>
+          <div className={classes["article"]}>
+            <div className={classes["containerImgTextLeft"]}>
+              <img src={img1} alt="" />
+              <a className={classes["textAlign"]}>Blueface</a>
+            </div>
+            <div className={classes["containerImgTextLeft"]}>
+              <img src={img2} alt="" />
+              <a className={classes["textAlign"]}>ThinKnx – Supervisione</a>
+            </div>
+            <div className={classes["containerImgTextLeft"]}>
+              <img src={img3} alt="" />
+              <a className={classes["textAlign"]}>Superbonus 110% – Novità</a>
+            </div>
+            <div className={classes["containerImgTextLeft"]}>
+              <img src={img4} alt="" />
+              <a className={classes["textAlign"]}>Vimar Smart Clima</a>
+            </div>
+            <div className={classes["containerImgTextLeft"]}>
+              <img src={img5} alt="" />
+              <a className={classes["textAlign"]}>Superbonus 110%</a>
+            </div>
+          </div>
+
+          <div className={classes["tagContainer"]}>
+            <div className={classes["tagText"]}>TAG</div>
+            <div>.................</div>
+
+            <div className={classes["tags"]}>
+              <div className={classes["tagsGroup"]}>
+                <a href="#">basalte</a>
+                <a href="#">bticino</a>
+                <a href="#">design</a>
+              </div>
+              <div className={classes["tagsGroup"]}>
+                <a href="#">ekinex</a>
+                <a href="#">superbonus</a>
+                <a href="#">thinknx</a>
+              </div>
+              <div className={classes["tagsGroup"]}>
+                <a href="#">vimar</a>
               </div>
             </div>
           </div>
